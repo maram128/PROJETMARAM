@@ -1,0 +1,49 @@
+
+  .container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Text Styles */
+  .text-container {
+    max-width: 60%; /* Adjust as needed */
+    margin-right: 20px; /* Adjust the spacing between text and image */
+  }
+  
+  /* Image Styles */
+  .img-thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 50%; /* Adjust as needed */
+    height: 90%;
+  }
+  
+  /* Header Styles */
+  h2 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Paragraph Styles */
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .img-thumbnail,
+    .text-container {
+      max-width: 100%;
+      margin-right: 5PX; /* Reset margin for smaller screens */
+    }
+  }
+  
